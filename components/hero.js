@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -10,8 +10,9 @@ export default function Hero() {
           <br />
         </h1>
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Empowering businesses with creative software solutions. From AI-driven analytics to seamless cloud
-          integrations, we're unleashing the future of technology.
+          Empowering businesses with creative software solutions. From AI-driven
+          analytics to seamless cloud integrations, we&apos;re unleashing the
+          future of technology.
         </p>
       </div>
       <div className="flex gap-4">
@@ -24,5 +25,5 @@ export default function Hero() {
         </Button>
       </div>
     </section>
-  )
+  );
 }
